@@ -62,7 +62,7 @@ struct graph {
 };
 
 void read_file(char* filename, int& num_verts, int& num_edges, int*& srcs, int*& dsts,
-               std::unordered_map<int, int>& id_Gid, std::map<int, product>& hashToActual) //std::map<int,int>& hashToActual)
+               std::unordered_map<int, int>& id_Gid, std::map<int, product>& hashToActual)
 {
 	ifstream infile;
 	string line;
